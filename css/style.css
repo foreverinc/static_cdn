@@ -1,0 +1,71 @@
+body{
+    background-color:#3c2f4d ;
+    color: #FCF8FF;
+}
+
+.search-form{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+}
+.search-form input{
+    width: 100%;
+}
+.card{
+    background-color:#2D809C ;
+}
+.rooms{
+    margin-top: 10%;
+}
+.info{
+    text-align: center;
+}
+@media (min-width: 790px) {
+    .info{
+        text-align: left;
+
+    }
+}
+.card-header{
+    background: transparent;
+    position: relative;
+}
+.create{
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    font-size: .75rem;
+    color: #3C2F4D;
+}
+.gapg{
+    justify-content: space-between;
+    width: 70%;
+}
+.gapg a{
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+.list{
+    align-self: flex-end;
+    background-color: rgb(18, 21, 65);
+    width: 30px;
+    text-align: center;
+    color: lightblue;
+    border-radius: 5px;
+}
+.note{
+    font-size: .75rem;
+}
+@media (min-width:730px){
+    .card{
+        width: 60%;
+        margin: auto;
+    }
+}
+.topic{
+    background-color: #003D34;
+    padding: 1px 10px;
+    border-radius: 5px;
+    font-size: .75rem;
+}

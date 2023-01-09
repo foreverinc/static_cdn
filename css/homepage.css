@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+*{
+    font-family: 'Ropa Sans', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-image:linear-gradient(to right top,#1d1d33 ,#03052b 100%) ;
+}
+a{
+    text-decoration: none;
+    transition: .6s;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.wel-card{
+    background:rgb(33, 33, 73);
+}
+.wel-info, .end-text{
+    color: lightblue;
+}
+.end-text{
+    font-style: italic;
+}
+.features-icons{
+
+    color: lightblue;
+}
+.row .bi{
+    font-size: 6rem;
+    color: rgb(113, 113, 194);
+}
+.or{
+    font-size: 3rem;
+    color: #696997;
+    margin:1rem;
+}
+.or:hover{
+    color: #7777a7;
+}
+@media (max-width:800px){
+    .flex-{
+        flex-direction: column;
+    }
+    .flex- .btn{
+        width: 100%;
+    }
+}
+.footer{
+    background-color: rgb(33, 33, 73);
+    color: aliceblue;
+}
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.card-gray {
+  background-color: #2d2f53;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 1s ease;
+  animation: glitch 2s infinite;
+}
+
+
+.card-gray::before,
+.card-gray::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background:rgb(33, 33, 73);
+  z-index: -1;
+  animation: glitch 1s infinite;
+}
+
+.card-gray::before {
+  transform: translate(-5px, 0);
+}
+
+.card-gray::after {
+  transform: translate(5px, 0);
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(-5px, 0);
+  }
+  20% {
+    transform: translate(5px, 0);
+  }
+  40% {
+    transform: translate(-5px, 0);
+  }
+  60% {
+    transform: translate(5px, 0);
+  }
+  80% {
+    transform: translate(-5px, 0);
+  }
+  100% {
+    transform: translate(5px, 0);
+  }
+}
