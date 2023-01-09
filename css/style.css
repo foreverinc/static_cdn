@@ -12,7 +12,7 @@ body{
     width: 100%;
 }
 .card{
-    background-color:#2D809C ;
+    background-color:#61618d ;
 }
 .rooms{
     margin-top: 10%;
@@ -64,8 +64,12 @@ body{
     }
 }
 .topic{
-    background-color: #003D34;
+    background-color: #322f5f;
     padding: 1px 10px;
     border-radius: 5px;
     font-size: .75rem;
+}
+.bi-people-fill{
+    font-size: 1.5rem;
+    color: #3c2f4d;
 }
